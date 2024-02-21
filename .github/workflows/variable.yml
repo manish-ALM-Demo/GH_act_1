@@ -2,7 +2,7 @@ name: GitHub Actions Demo
 on:
   push:
     branches:
-      - main  # Adjust this to match your branch name
+      - dev  # Adjust this to match your branch name
 
 jobs:
   Explore-GitHub-Actions:

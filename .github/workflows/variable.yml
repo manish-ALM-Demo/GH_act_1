@@ -1,0 +1,1 @@
+run: echo "💡 The ${{ vars.DEMO_1 }} repository has been cloned to the runner.

@@ -1,1 +1,12 @@
-run: echo "💡 The ${{ vars.DEMO_1 }} repository has been cloned to the runner.
+name: GitHub Actions Demo
+on:
+  push:
+    branches:
+      - main  # Adjust this to match your branch name
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Manish
+        run: echo "${{ vars.DEMO_1 }}"

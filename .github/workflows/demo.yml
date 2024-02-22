@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Manish
-        run: echo "${{ secret.secret }}"
+        run: echo "${{ secret.SECRET }}"
